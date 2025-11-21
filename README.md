@@ -29,10 +29,10 @@ python -m venv venv
 ```
 
 **3. Install Dependencies**
-We only need `pymodbus` for this simulation.
+We only need `pymodbus` for this simulation. Install the specific version to ensure compatibility:
 
 ```powershell
-pip install pymodbus
+pip install pymodbus==3.11.3
 ```
 
 ## 3\. How to Run
